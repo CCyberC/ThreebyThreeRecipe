@@ -41,7 +41,7 @@ void button2Text() {
 void box1Text() {
   textAlign (CENTER, TOP);
   textFont(boxFont, 25);
-  fill(#6a5f50);
+  fill(grey);
   text(box1Text, pt1X, text1Y, rectWidth, text1Height);
   textFont(boxFont);
   fill(white);
@@ -69,7 +69,7 @@ void button4Text() {
 void box8Text() {
   textAlign (CENTER, TOP);
   textFont(boxFont, 17);
-  fill(darkPurple);
+  fill(dGrey);
   text(box8Text, pt10X, text8Y, rectWidth, rectHeight);
   fill(white);
   textFont(boxFont);

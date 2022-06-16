@@ -22,11 +22,11 @@ void button2() {
     fill(white);
     button2Text();
   } else {
-    stroke(darkPurple);
-    fill(purple);
+    stroke(dGrey);
+    fill(white);
     rect(button2X, button2Y, button2Width, button2Height);
     stroke(black);
-    fill(darkPurple);
+    fill(dGrey);
     button2Text();
   }
   fill(white);
@@ -58,8 +58,8 @@ void button4() {
     fill(white);
     button4Text();
   } else {
-    stroke(darkPurple);
-    fill(darkPurple);
+    stroke(dGrey);
+    fill(dGrey);
     rect(button4X, button4Y, button4Width, button4Height);
     stroke(black);
     fill(white);
@@ -123,8 +123,8 @@ void button5() {
     fill(white);
     button5Text();
   } else {
-    stroke(darkPurple);
-    fill(darkPurple);
+    stroke(dGrey);
+    fill(dGrey);
     rect(button5X, button5Y, cButtonWidth, cButtonHeight);
     stroke(black);
     fill(white);
